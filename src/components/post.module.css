@@ -1,0 +1,44 @@
+.post {
+    border: 1px solid gray;
+    max-width: 30vw;
+    min-width: 30vw;
+    border-radius: 15px;
+    margin: 0.7rem 0;
+    background-color: rgba(54, 50, 50, 0.952);
+    color: white;
+    padding: 1rem;
+}
+
+.post img {
+    border-radius: 15px;
+    height: 8.5rem;
+}
+
+.post img:hover {
+    height: 9rem;
+    transition: 0.2s ease-in-out;
+}
+
+.post p {
+    padding: 1rem;
+    text-align: justify;
+}
+
+.postBody {
+    border-radius: 10px;
+    padding: 1rem;
+    color: black;
+    background-color: rgb(197, 128, 128);
+}
+
+.actions{
+    padding-top: 0.5rem;
+    max-width: 5rem;
+    min-width: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.likeShare {
+    color: rgb(130, 252, 30);
+}

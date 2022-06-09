@@ -1,0 +1,71 @@
+.post {
+    margin-top: 4.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.postForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.829);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    min-width: 40vw;
+    color: white;
+    align-items: center;
+}
+
+form input {
+    outline: none;
+    min-width: 39vw;
+    margin: 0.8rem 0;
+    border-radius: 5px;
+}
+
+form textarea {
+    outline: none;
+    min-width: 39vw;
+    border-radius: 5px;
+}
+
+form label{
+    margin-top: 1rem;
+}
+
+form button {
+    min-width: 5rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(167, 75, 75);
+    padding: 0.3rem;
+}
+
+form button:hover{
+    background-color: rgb(226, 147, 147);
+}
+
+form img{
+    height: 6rem;
+}
+
+.postList{
+    height: 50vh;
+    overflow: scroll;
+}
+
+.postList ul{
+    list-style: none;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+}

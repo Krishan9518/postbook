@@ -1,0 +1,35 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px 10px;
+    background: #fff;
+    border: 1px solid #777;
+    border-radius: 2rem;
+  }
+  
+  .post img{
+    height: 5rem;
+  }
+
+  small {
+    border: 2px solid #777;
+    border-radius: 7px;
+    padding: 5px 12px;
+    color: #777;
+  }
+
+  .post div button{
+    font-size: 10px;
+    border: 1px solid gray;
+    margin: 3px 0.7rem;
+    border-radius: 7px;
+  }
+
+  .post div{
+    margin: 0.5rem 0;
+  }
